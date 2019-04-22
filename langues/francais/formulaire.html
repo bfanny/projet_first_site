@@ -1,0 +1,60 @@
+<p>Voici un petit formulaire sur les grenouilles:</p>
+<?php
+<form action="https://jeanferry/reception.php"method="post" >
+<fieldset>
+
+       <legend>Informations</legend> 
+       <label for="nom">Nom</label>
+       <input type="text" name="nom" id="nom" /><br /><br />
+        <label for="prenom">Prénom </label>
+        <input type="text" name="prenom" id="prenom" /><br /><br />
+        <label for="email">E-mail ?</label>
+        <input type="email" name="email" id="email" /><br /><br />
+
+
+   </fieldset>
+<fieldset>
+   <p>
+       Indiquez votre âge<br />
+       <input type="radio" name="age" value="moins15" id="moins18" /> <label for="moins18">Moins de 18 ans</label><br />
+       <input type="radio" name="age" value="plus18" id="plus18" /> <label for="plus18">Plus de 18 ans</label><br />
+       <input type="radio" name="age" value="20ans" id="20ans" /> <label for="20ans">Toujours 20 ans dans sa tête</label><br />
+   </p>
+
+
+
+   <p>
+       Indiquez votre sexe<br />
+       <input type="radio" name="sexe" value="f" id="f" /> <label for="f">Je suis une femme</label><br />
+       <input type="radio" name="sexe" value="m" id="m" /> <label for="m">Je suis un homme</label><br />
+       <input type="radio" name="sexe" value="m" id="m" /> <label for="m">Autres</label><br />
+       <input type="radio" name="sexe" value="a" id="a" /> <label for="a">Je ne souhaite pas me prononcer</label><br />
+   </p>
+
+
+   <p> Cochez les familles d'aminaux que vous préférez :<br />
+       <input type="checkbox" name="batraciens" id="batraciens" /> <label for="batraciens">Batraciens</label><br />
+       <input type="checkbox" name="mammifères" id="mammifères" /> <label for="mammifères">Mammifères</label><br />
+       <input type="checkbox" name="poissons" id="poissons" /> <label for="poissons">Poissons</label><br />
+       <input type="checkbox" name="aucuns" id="aucuns" /> <label for="aucuns">Je n'aime pas les animaux</label>Texte à l'intérieur du formulaire</p>
+</p>
+
+
+<p>Qu'est ce que vous qualifieriez d'"adorable" chez les grenouilles?<br />
+
+<input type="radio" name="couleur" id="couleur" /><label for="couleur">Leur belles couleurs</label><br />
+<input type="radio" name="yeux" id="yeux" /><label for="yeux">Leur yeux globuleux</label><br />
+<input type="radio" name="pattes" id="pattes" /><label for="pattes">Leur pattes fines pleines de ventouses</label><br />
+<input type="radio" name="tete" id="tete" /><label for="tete">Leur petite tête innocente</label><br />
+<input type="radio" name="ventre" id="ventre" /><label for="ventre">Leur ventre gonflé</label><br />
+<input type="radio" name="rien" id="rien" /><label for="rien">Je ne les trouve pas adorables du tout</label><br />
+</p>
+<p>
+<input type="submit" value="Envoyer" />
+</p>
+</fieldset>
+</form>
+
+
+
+<p>Merci d'avoir remplis ce formulaire!</p>

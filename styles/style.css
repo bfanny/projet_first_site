@@ -1,0 +1,196 @@
+html
+{background: url('../images/fond.jpg') no-repeat center fixed;
+background-size: 125% 125%;}
+
+@font-face
+{font-family: "pacifico";
+src: url('../polices/Pacifico.ttf');}
+@font-face
+{font-family: "amatic";
+src:url('../polices/AmaticSC-Regular.ttf');}
+
+
+head img
+
+{
+    width:60px;
+    height: 35px;
+}
+/*****************************************************body*********************************************/
+
+
+body 
+{margin:25%;
+margin-top: 10%;
+background-color:white;}
+
+
+.wrapper 
+{width: 960px;}
+
+
+    /********************header************************************************************************/
+
+
+header 
+{display: flex;;
+width: 791px;
+margin-bottom:-200px;
+padding-bottom:-20px;
+
+background:url("../images/font.jpg") no-repeat center;
+background-size: 100% 100%;
+}
+
+
+
+
+.gre /*image logo site*/
+{width: 170px;
+height: 150.5px;
+margin-left:-70px;
+margin-bottom:200px;}
+
+.elementsecond
+{color:black;
+text-align: justify;
+font-family: "pacifico";
+font-size: 50px;
+margin-top:-30px;}
+
+.twitter
+{width: 40px;
+height: 40px;
+margin-right: px;
+padding-left:150px;
+margin-left: -50px;
+margin-top:100px;}
+.instagram
+{width: 36px;
+height: 36px;
+margin-top:101px;
+margin-left:-50px;
+margin-right:-3px;
+padding-right:-3px;}
+
+.facebook
+{width: 40px;
+height: 40px;
+margin-left:-50px;
+margin-top:100px;
+}
+
+header p img
+{
+    width:50px;
+}
+.fr
+{margin-top: 200px;
+}
+
+h1 /*nom du site*/
+{text-align: left;}
+
+
+    /******************nav**************************************************************************/
+
+/*carré de navigation*/
+nav 
+{           /*estéthique*/
+background-color: rgb(14, 13, 13);
+color:white;
+font-family: "pacifico";
+text-align: ;;
+font-size: 20px;
+            /*position*/
+display: block;
+float: left;
+            /*taille+marge*/
+width:10%;
+height: 100%;
+
+padding-right: 70px;
+padding-left: 0em;
+padding-top:1px;
+padding-bottom: 94.2%;
+margin-left:0em;
+margin-top:200px;
+
+
+line-height: 1.6em; /*espacement entre les paragraphes*/
+}
+
+
+/*onglet du menu*/
+li 
+{list-style: none;
+padding: 8px;}
+.nav li 
+{display: inline;
+margin-right: 1px;}
+
+/*options liens*/
+a /*visible*/
+{text-decoration: none;
+color: rgba(241, 187, 116, 0.719);
+display: flex;}            
+a:hover /*après clic*/
+{color: green;
+text-decoration: underline;}
+
+    /********************************************main************************************************/
+
+
+/*titre*/    
+h2
+{text-align: center;
+padding-right:180px;
+font-family: "amatic";
+font-size:60px;}
+
+/*image illustrative "grenouillerouge"*/
+img 
+{padding-left:75px;
+    width: 450px;
+    margin-left: 20px;
+    
+    
+}
+
+        /*article 1*/
+
+
+article 
+{text-align:center;
+margin-right:60px;
+margin-left:200px;
+margin-top:40px;
+border: dotted 5px;}
+
+article h3
+{
+    color:black;
+    text-align: center;
+    font-family: "amatic";
+    font-size:30px;
+}
+
+    /****************************************footer**************************************************/
+
+    
+footer 
+{           /*esthétique*/
+background-color: rgb(236, 199, 157);
+            /*position*/
+display: flex;
+            /*taille+marge*/
+padding-right: 790px;
+margin-top: 20%;
+margin-right:168px;
+padding-bottom:20px;}
+
+footer a
+{color:black;
+margin-right:100px;
+margin-left:110px;
+margin-top:20px;}
